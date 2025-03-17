@@ -1,0 +1,15 @@
+{
+  "originHash" : "c700f7b4823e9d6ed79000c4dd821b11a5354e06eed959211e0deddb7ee20f1b",
+  "pins" : [
+    {
+      "identity" : "biometricsdk",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/naresh04/BiometricSDK",
+      "state" : {
+        "branch" : "main",
+        "revision" : "4f2ddfba035466723d7ae6ac3b161800785e3af0"
+      }
+    }
+  ],
+  "version" : 3
+}
