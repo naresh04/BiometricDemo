@@ -1,4 +1,4 @@
-//
+v//
 //  ViewController.swift
 //  BiometricsDemo
 //
@@ -89,7 +89,7 @@ class ViewController: UIViewController {
         }
     
     private func sendEmailToServer(email: String, token: String) {
-            guard let url = URL(string: "https://your-backend.com/api/validate") else { return }
+            guard let url = URL(string: "https://localhost:3000/users") else { return }
             
             var request = URLRequest(url: url)
             request.httpMethod = "POST"
